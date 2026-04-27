@@ -170,7 +170,6 @@ static const Key keys[] = {
         { 0, XKB_KEY_XF86AudioLowerVolume, spawn, {.v = (const char*[]){ "wpctl", "set-volume", "@DEFAULT_AUDIO_SINK@", "5%-", NULL }} },
         { 0, XKB_KEY_XF86AudioMute,        spawn, {.v = (const char*[]){ "wpctl", "set-mute",   "@DEFAULT_AUDIO_SINK@", "toggle", NULL }} },
         /* fin volumen */
-{ 0, XKB_KEY_Print, spawn, SHCMD("grim /home/victor/Fotos/$(date +%Y%m%d_%H%M%S).png") },
     /* brillo */
         { 0, XKB_KEY_XF86MonBrightnessUp,   spawn, {.v = (const char*[]){ "brightnessctl", "set", "10%+", NULL }} },
         { 0, XKB_KEY_XF86MonBrightnessDown,  spawn, {.v = (const char*[]){ "brightnessctl", "set", "10%-", NULL }} },

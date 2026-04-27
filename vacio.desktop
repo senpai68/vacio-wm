@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=vacio
+Comment=dwm for Wayland
+Exec=vacio
+Type=Application

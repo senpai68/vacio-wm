@@ -11,7 +11,7 @@ static int gaps                            = 1;  /* 1 means gaps between windows
 static const unsigned int gappx            = 14; /* gap pixel between windows */
 static const unsigned int borderpx         = 4;  /* border pixel of windows */
 static const int showbar                   = 1; /* 0 means no bar */
-static const int topbar                    = 0; /* 0 means bottom bar */
+static const int topbar                    = 1 /* 0 means bottom bar */
 static const char *fonts[] = {"JetBrains Mono:size=10", "Noto Emoji:size=10"};
 static const float rootcolor[]             = COLOR(0x0d0d0dff);
 /* This conforms to the xdg-protocol. Set the alpha to zero to restore the old behavior */
